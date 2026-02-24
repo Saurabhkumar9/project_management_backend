@@ -8,7 +8,7 @@ const port = process.env.PORT || 4000;
 
 AppDataSource.initialize()
   .then(() => {
-    console.log("Database connected ");
+    console.log("Database connected with  supabase ");
     app.listen(port, () => {
       console.log(`Server running on port ${port}`);
     });
